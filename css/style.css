@@ -1,0 +1,82 @@
+body{
+    background-color: #1B1F28;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CUSTOM FRAMEWORK */
+.text-right {
+    text-align: right;
+}
+
+.text-white {
+color: white !important;
+}
+
+.text-whitesmoke {
+    color: whitesmoke !important;
+    }
+
+.text-orange{
+    color: #ff9c00 !important;
+}
+
+.btn-orange{
+    background-color: #ff9c00 !important;
+    border: 2px solid white;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+/* PROJECT */
+.active {
+    border-bottom: 1px solid #ff9c00;
+    padding-bottom: 5px;
+}
+
+/* nav */
+nav i:hover {
+    color: whitesmoke !important;
+    transition: 1s;
+}
+
+nav a:hover {
+    color: #ff9c00 !important;
+    transition: 0.5s;
+}
+
+/* jumbotron */
+#jumbotron {
+    height: 800px;
+    background-image: url('../img/schwarzerblitz.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#jumbotron h1 {
+    font-size: 72px;
+}
+
+.jumbotron-veil {
+    background-color: whitesmoke;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+}
+
+.btn-orange:hover {
+    background-color: white !important;
+    border: 2px solid #ff9c00;
+    color: #ff9c00 !important;
+    transition: 0.5s;
+}

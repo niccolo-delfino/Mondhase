@@ -108,7 +108,8 @@ nav i:hover {
     transition: 1s;
 }
 
-nav a:hover {
+nav a:hover,
+footer a:hover {
     color: #ff9c00 !important;
     transition: 0.5s;
 }
@@ -179,4 +180,8 @@ nav a:hover {
 }
 
 /*footer*/
+footer i:hover {
+    color: #ff9c00 !important;
+    transition: 1s;
+}
 /*copyright*/

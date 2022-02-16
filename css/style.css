@@ -83,6 +83,14 @@ color: white !important;
 }
 
 /* nav */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #1B1F28;
+}
+
 nav i:hover {
     color: whitesmoke !important;
     transition: 1s;
@@ -96,6 +104,7 @@ nav a:hover {
 /* jumbotron */
 #jumbotron {
     height: 800px;
+    margin-top: 138px;
     background-image: url('../img/schwarzerblitz.png');
     background-size: cover;
     background-position: center;
@@ -151,8 +160,8 @@ nav a:hover {
 }
 
 .motion-banner-veil {
-    background-color: #ff9c00;
-    opacity: 0.2;
+    background-color: black;
+    opacity: 0.3;
     top: 0;
     left: 0;
 }

@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 .jumbotron-veil {
-    background-color: whitesmoke;
+    background-color: white;
     opacity: 0.1;
     top: 0;
     left: 0;
@@ -122,6 +122,11 @@ nav a:hover {
 
 /* main */
 
+/*boxes*/
+#boxes i {
+    font-size: 50px;
+    border: 3px solid #ff9c00;
+}
 
 #boxes .col-12:hover {
     background-color: #12151B;
@@ -136,8 +141,18 @@ nav a:hover {
 	animation: float 5s ease-in-out infinite;
 }
 
-/*boxes*/
-#boxes i {
-    font-size: 50px;
-    border: 3px solid #ff9c00;
+/*motionsickness banne*/
+#motion-banner {
+    height: 300px;
+    background-image: url('../img/motionsickness.png');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.motion-banner-veil {
+    background-color: #ff9c00;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
 }

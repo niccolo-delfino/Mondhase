@@ -123,16 +123,16 @@ nav a:hover {
 /* main */
 
 
-#boxes .col-3:hover {
+#boxes .col-12:hover {
     background-color: #12151B;
     transition: 1.25s;
     box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 50%);
 }
 
-#boxes .col-3:hover i{
+#boxes .col-12:hover i{
     color: #E68700 !important;
     border-color: #E68700;
-    transition: 1s;
+    transition: 1.25s;
 	animation: float 5s ease-in-out infinite;
 }
 

@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+ul{
+    padding-left: 0px;
+}
+
+li{
+list-style: none;
+}
+
 /* CUSTOM FRAMEWORK */
 .text-right {
     text-align: right;
@@ -27,6 +35,10 @@ color: white !important;
 .btn-orange{
     background-color: #ff9c00 !important;
     border: 2px solid white;
+}
+
+.bg-dark{
+    background-color: #12151B !important;
 }
 
 .pointer:hover{
@@ -165,3 +177,6 @@ nav a:hover {
     top: 0;
     left: 0;
 }
+
+/*footer*/
+/*copyright*/

@@ -160,8 +160,8 @@ nav a:hover {
 }
 
 .motion-banner-veil {
-    background-color: black;
-    opacity: 0.3;
+    background-color: white;
+    opacity: 0.2;
     top: 0;
     left: 0;
 }

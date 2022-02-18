@@ -16,6 +16,11 @@ list-style: none;
 }
 
 /* CUSTOM FRAMEWORK */
+
+.font-italic {
+ font-style: italic;
+}
+
 .text-right {
     text-align: right;
 }
@@ -187,6 +192,9 @@ footer i:hover {
 /*copyright*/
 
 /*GAMES*/
-#games {
+#games,
+#about {
     padding-top: 138px;
 }
+
+/*ABOUT*/

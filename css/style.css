@@ -112,6 +112,13 @@ color: white !important;
     background-color: #1B1F28;
 }
 
+#navabar-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
 nav i:hover {
     color: whitesmoke !important;
     transition: 1s;

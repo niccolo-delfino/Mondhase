@@ -230,12 +230,34 @@ footer i:hover {
 
 /*SERVICES*/
 .dice img{
-max-height: 155px;
+    max-height: 155px;
 }
 
 #services #banner-nav{
-height: 200px;
-background: url('../img/doll_concept_clean.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
-background-position: left;
-background-repeat: no-repeat;
+    height: 200px;
+    background: url('../img/doll_concept_clean.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#games #banner-nav{
+    height: 200px;
+    background: url('../img/johnson_studio_cleanMonty.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+#about #banner-nav{
+    height: 200px;
+    background: url('../img/tiger_sambiong_clean_concept.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+#contacts #banner-nav{
+    height: 200px;
+    background: url('../img/kiyoko_nanabi_concept_clean.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
 }

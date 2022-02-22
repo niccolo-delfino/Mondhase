@@ -58,6 +58,10 @@ color: white !important;
     background-color: #ff9c00 !important;
 }
 
+.bg-body{
+    background-color: #1B1F28 !important;
+}
+
 .bg-dark{
     background-color: #12151B !important;
 }

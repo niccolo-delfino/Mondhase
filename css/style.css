@@ -21,6 +21,14 @@ list-style: none;
 
 /* CUSTOM FRAMEWORK */
 
+.fs-50{
+    font-size: 50px;
+}
+
+.text-sh-dark{
+    text-shadow: 2px 2px #12151B;
+}
+
 .font-italic {
  font-style: italic;
 }
@@ -61,6 +69,8 @@ color: white !important;
 .z-index-2 {
     z-index: 2;
 }
+
+
 
 /* PROJECT */
 .active {
@@ -221,4 +231,11 @@ footer i:hover {
 /*SERVICES*/
 .dice img{
 max-height: 155px;
+}
+
+#services #banner-nav{
+height: 200px;
+background: url('../img/doll_concept_clean.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+background-position: left;
+background-repeat: no-repeat;
 }

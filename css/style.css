@@ -280,3 +280,18 @@ footer i:hover {
     background-position: left;
     background-repeat: no-repeat;
 }
+
+/*MEDIAQUERY*/
+@media screen and (max-width: 678px) {
+    #jumbotron {
+        margin-top: 116px;
+        height: 600px;
+    }
+    
+    #games,
+    #about,
+    #contacts,
+    #services {
+        padding-top: 116px;
+    }
+}

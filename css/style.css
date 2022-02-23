@@ -38,8 +38,12 @@ list-style: none;
 }
 
 .text-white {
-color: white !important;
+    color: white !important;
 }
+
+.text-black {
+    color: black !important;
+    }
 
 .text-whitesmoke {
     color: whitesmoke !important;
@@ -206,8 +210,19 @@ footer a:hover {
     position: relative;
 }
 
+#footer-banner {
+    height: 300px;
+    background-image: url('../img/collage.png');
+    background-size: contain;
+    position: relative;
+}
+
+#footer-banner .bg-white{
+height: 50%;
+}
+
 .motion-banner-veil {
-    background-color: white;
+    background-color: black;
     opacity: 0.2;
     top: 0;
     left: 0;

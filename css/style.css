@@ -285,6 +285,36 @@ footer i:hover {
     background-repeat: no-repeat;
 }
 
+#game-banner-schwarz{
+    height: 300px;
+    background: url('../img/schwarzerblitz.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#game-banner-schwarz:hover{
+    filter: grayscale(0%);
+}
+
+#game-banner-motion{
+    height: 300px;
+    background: url('../img/screenshot.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#game-banner-motion:hover{
+    filter: grayscale(0%);
+}
+
+#game-banner-motion img{
+max-height: 300px;
+}
+
 /*MEDIAQUERY*/
 @media screen and (max-width: 768px) {
     #jumbotron {

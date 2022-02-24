@@ -21,6 +21,14 @@ list-style: none;
 
 /* CUSTOM FRAMEWORK */
 
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+
 .fs-50{
     font-size: 50px;
 }
@@ -282,7 +290,7 @@ footer i:hover {
 }
 
 /*MEDIAQUERY*/
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 768px) {
     #jumbotron {
         margin-top: 116px;
         height: 600px;
@@ -293,5 +301,24 @@ footer i:hover {
     #contacts,
     #services {
         padding-top: 116px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #jumbotron h1 {
+        font-size: 60px;
+    }
+    #jumbotron h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    #jumbotron h1 {
+        font-size: 50px;
+    }
+    #jumbotron h2 {
+        font-size: 20px;
     }
 }

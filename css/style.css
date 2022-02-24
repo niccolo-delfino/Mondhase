@@ -175,7 +175,7 @@ footer a:hover {
 }
 
 .jumbotron-veil {
-    background-color: white;
+    background-color: black;
     opacity: 0.1;
     top: 0;
     left: 0;
@@ -223,10 +223,6 @@ footer a:hover {
     background-image: url('../img/collage.png');
     background-size: contain;
     position: relative;
-}
-
-#footer-banner .bg-white{
-height: 50%;
 }
 
 .motion-banner-veil {

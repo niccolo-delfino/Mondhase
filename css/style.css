@@ -86,6 +86,10 @@ list-style: none;
     z-index: 2;
 }
 
+.hr-lightgray{
+    border-top: 1px solid lightgray !important;
+}
+
 
 
 /* PROJECT */

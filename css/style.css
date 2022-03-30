@@ -151,7 +151,11 @@ list-style: none;
 
 nav i:hover {
     color: whitesmoke !important;
-    transition: 1s;
+    transition: 0.5s;
+}
+
+nav a:hover {
+   text-decoration: none;
 }
 
 nav a:hover,

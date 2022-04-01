@@ -195,9 +195,8 @@ footer a:hover {
 }
 
 .btn-orange:hover {
-    background-color: white !important;
+    background-color: #b96d00 !important;
     border: 2px solid #ff9c00;
-    color: #ff9c00 !important;
     transition: 0.5s;
 }
 

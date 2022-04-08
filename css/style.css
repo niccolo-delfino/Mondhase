@@ -340,3 +340,9 @@ max-height: 200px;
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 830px) {
+    header nav .header-link a{
+        font-size: 16px;
+    }
+}

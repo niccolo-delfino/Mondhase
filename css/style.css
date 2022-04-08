@@ -346,3 +346,9 @@ max-height: 200px;
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #game-banner #game-banner-motion img{
+        max-width: 75%;
+    }
+}
